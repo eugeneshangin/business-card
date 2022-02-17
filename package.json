@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "start": "vue-tsc --noEmit ./server.ts --esmoduleinterop && node server.js",
+    "start": "vue-tsc --noEmit server.ts --esmoduleinterop && node server.js",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
